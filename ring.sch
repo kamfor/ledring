@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5027,16 +5027,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="LED8" library="led" deviceset="LED" device="KA-3528ASYC"/>
 <part name="LED9" library="led" deviceset="LED" device="KA-3528ASYC"/>
 <part name="LED10" library="led" deviceset="LED" device="KA-3528ASYC"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0402"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0402" value="330R"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0402" value="330R"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0402" value="330R"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0402" value="330R"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0402" value="330R"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0402" value="330R"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0402" value="330R"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0402" value="330R"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0402" value="330R"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0402" value="330R"/>
 <part name="PAD1" library="wirepad" deviceset="SMD2" device=""/>
 <part name="PAD2" library="wirepad" deviceset="SMD2" device=""/>
 </parts>
