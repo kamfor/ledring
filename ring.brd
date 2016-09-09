@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1386,42 +1386,42 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="LED9" library="led" package="KA-3528ASYC" value="" x="-62.75075" y="-67.650975"/>
-<element name="LED10" library="led" package="KA-3528ASYC" value="" x="-79.288075" y="47.350275"/>
-<element name="LED11" library="led" package="KA-3528ASYC" value="" x="-89.288075" y="-7.650975"/>
-<element name="LED12" library="led" package="KA-3528ASYC" value="" x="-62.6174" y="67.350275"/>
-<element name="LED13" library="led" package="KA-3528ASYC" value="" x="-30.946725" y="87.350275"/>
-<element name="LED14" library="led" package="KA-3528ASYC" value="" x="-89.288075" y="22.34965"/>
-<element name="LED15" library="led" package="KA-3528ASYC" value="" x="-82.6174" y="-37.65035"/>
-<element name="LED16" library="led" package="KA-3528ASYC" value="" x="-35.946725" y="-87.65035"/>
-<element name="R9" library="rcl" package="R0805W" value="330R" x="-70.299175" y="-66.025625" rot="R180"/>
-<element name="R10" library="rcl" package="R0805W" value="330R" x="-86.48725" y="48.974375" rot="R180"/>
-<element name="R11" library="rcl" package="R0805W" value="330R" x="-97.675325" y="-6.025625" rot="R180"/>
-<element name="R12" library="rcl" package="R0805W" value="330R" x="-70.299175" y="69.987825" rot="R180"/>
-<element name="R13" library="rcl" package="R0805W" value="330R" x="-36.48725" y="89.987825" rot="R180"/>
-<element name="R14" library="rcl" package="R0805W" value="330R" x="-97.675325" y="19.987825" rot="R180"/>
-<element name="R15" library="rcl" package="R0805W" value="330R" x="-90.299175" y="-38.998725" rot="R180"/>
-<element name="R16" library="rcl" package="R0805W" value="330R" x="-41.48725" y="-88.998725" rot="R180"/>
-<element name="PAD3" library="wirepad" package="SMD1,27-2,54" value="" x="-6.829375" y="-90.861575"/>
-<element name="PAD4" library="wirepad" package="SMD1,27-2,54" value="" x="-3.317825" y="-90.861575"/>
-<element name="LED1" library="led" package="KA-3528ASYC" value="" x="40" y="-80"/>
-<element name="LED2" library="led" package="KA-3528ASYC" value="" x="10" y="-55"/>
-<element name="LED3" library="led" package="KA-3528ASYC" value="" x="-5" y="-30"/>
-<element name="LED4" library="led" package="KA-3528ASYC" value="" x="-10" y="0"/>
-<element name="LED5" library="led" package="KA-3528ASYC" value="" x="-10" y="30"/>
-<element name="LED6" library="led" package="KA-3528ASYC" value="" x="0" y="55"/>
-<element name="LED7" library="led" package="KA-3528ASYC" value="" x="20" y="75"/>
-<element name="LED8" library="led" package="KA-3528ASYC" value="" x="45" y="90"/>
-<element name="R1" library="rcl" package="R0805W" value="330R" x="35" y="-80"/>
-<element name="R2" library="rcl" package="R0805W" value="330R" x="5" y="-55"/>
-<element name="R3" library="rcl" package="R0805W" value="330R" x="-10" y="-30"/>
-<element name="R4" library="rcl" package="R0805W" value="330R" x="-15" y="0"/>
-<element name="R5" library="rcl" package="R0805W" value="330R" x="-15" y="30"/>
-<element name="R6" library="rcl" package="R0805W" value="330R" x="-5" y="55"/>
-<element name="R7" library="rcl" package="R0805W" value="330R" x="15" y="75"/>
-<element name="R8" library="rcl" package="R0805W" value="330R" x="40" y="90"/>
-<element name="PAD1" library="wirepad" package="SMD1,27-2,54" value="" x="80" y="-85"/>
-<element name="PAD2" library="wirepad" package="SMD1,27-2,54" value="" x="75" y="-85"/>
+<element name="LED9" library="led" package="KA-3528ASYC" value="" x="-62.969665625" y="-67.650975"/>
+<element name="LED10" library="led" package="KA-3528ASYC" value="" x="-79.440084375" y="47.350275"/>
+<element name="LED11" library="led" package="KA-3528ASYC" value="" x="-92.177703125" y="-7.7385375"/>
+<element name="LED12" library="led" package="KA-3528ASYC" value="" x="-63.45655" y="67.31379375"/>
+<element name="LED13" library="led" package="KA-3528ASYC" value="" x="-32.80125" y="86.5599125"/>
+<element name="LED14" library="led" package="KA-3528ASYC" value="" x="-89.725884375" y="22.38613125"/>
+<element name="LED15" library="led" package="KA-3528ASYC" value="" x="-84.38071875" y="-37.74155"/>
+<element name="LED16" library="led" package="KA-3528ASYC" value="" x="-32.54169375" y="-86.34316875"/>
+<element name="R9" library="rcl" package="R0805W" value="330R" x="-60.525778125" y="-70.440571875"/>
+<element name="R10" library="rcl" package="R0805W" value="330R" x="-80.8457125" y="44.65623125"/>
+<element name="R11" library="rcl" package="R0805W" value="330R" x="-91.81414375" y="-10.217225"/>
+<element name="R12" library="rcl" package="R0805W" value="330R" x="-66.482378125" y="64.11889375"/>
+<element name="R13" library="rcl" package="R0805W" value="330R" x="-37.703334375" y="84.546478125" rot="R180"/>
+<element name="R14" library="rcl" package="R0805W" value="330R" x="-90.39909375" y="19.594815625"/>
+<element name="R15" library="rcl" package="R0805W" value="330R" x="-83.2662125" y="-40.43529375"/>
+<element name="R16" library="rcl" package="R0805W" value="330R" x="-28.133478125" y="-88.71703125"/>
+<element name="PAD3" library="wirepad" package="SMD1,27-2,54" value="" x="-4.33640625" y="-92.989775"/>
+<element name="PAD4" library="wirepad" package="SMD1,27-2,54" value="" x="-1.22008125" y="-92.989775"/>
+<element name="LED1" library="led" package="KA-3528ASYC" value="" x="41.5240875" y="-78.948921875"/>
+<element name="LED2" library="led" package="KA-3528ASYC" value="" x="9.632115625" y="-54.94744375"/>
+<element name="LED3" library="led" package="KA-3528ASYC" value="" x="-5.9120625" y="-29.45280625"/>
+<element name="LED4" library="led" package="KA-3528ASYC" value="" x="-12.320525" y="-0.21890625"/>
+<element name="LED5" library="led" package="KA-3528ASYC" value="" x="-8.928028125" y="29.936934375"/>
+<element name="LED6" library="led" package="KA-3528ASYC" value="" x="2.58534375" y="55.37838125"/>
+<element name="LED7" library="led" package="KA-3528ASYC" value="" x="20.06305625" y="75.063065625"/>
+<element name="LED8" library="led" package="KA-3528ASYC" value="" x="46.828659375" y="91.13514375"/>
+<element name="R1" library="rcl" package="R0805W" value="330R" x="46.036478125" y="-81.5766125"/>
+<element name="R2" library="rcl" package="R0805W" value="330R" x="11.937215625" y="-57.89045625"/>
+<element name="R3" library="rcl" package="R0805W" value="330R" x="-4.58843125" y="-32.158365625"/>
+<element name="R4" library="rcl" package="R0805W" value="330R" x="-12.022725" y="-2.75821875"/>
+<element name="R5" library="rcl" package="R0805W" value="330R" x="-9.829309375" y="26.97294375"/>
+<element name="R6" library="rcl" package="R0805W" value="330R" x="0.422915625" y="52.036009375"/>
+<element name="R7" library="rcl" package="R0805W" value="330R" x="15.94585625" y="72.036009375"/>
+<element name="R8" library="rcl" package="R0805W" value="330R" x="41.343759375" y="89.037684375" rot="R180"/>
+<element name="PAD1" library="wirepad" package="SMD1,27-2,54" value="" x="78.79124375" y="-87.89045625"/>
+<element name="PAD2" library="wirepad" package="SMD1,27-2,54" value="" x="76.261309375" y="-87.890459375"/>
 </elements>
 <signals>
 <signal name="N$11">
@@ -1434,14 +1434,14 @@ design rules under a new name.</description>
 <contactref element="R14" pad="2"/>
 <contactref element="R15" pad="2"/>
 <contactref element="R16" pad="2"/>
-<wire x1="-91.351675" y1="-38.998725" x2="-71.351675" y2="-66.025625" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.727825" y1="-6.025625" x2="-91.351675" y2="-38.998725" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.727825" y1="19.987825" x2="-98.727825" y2="-6.025625" width="0" layer="19" extent="1-1"/>
-<wire x1="-87.53975" y1="48.974375" x2="-98.727825" y2="19.987825" width="0" layer="19" extent="1-1"/>
-<wire x1="-71.351675" y1="69.987825" x2="-87.53975" y2="48.974375" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.53975" y1="-88.998725" x2="-71.351675" y2="-66.025625" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.829375" y1="-90.861575" x2="-42.53975" y2="-88.998725" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.53975" y1="89.987825" x2="-71.351675" y2="69.987825" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.080978125" y1="-88.71703125" x2="-59.473278125" y2="-70.440571875" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.33640625" y1="-92.989775" x2="-27.080978125" y2="-88.71703125" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.2137125" y1="-40.43529375" x2="-59.473278125" y2="-70.440571875" width="0" layer="19" extent="1-1"/>
+<wire x1="-90.76164375" y1="-10.217225" x2="-82.2137125" y2="-40.43529375" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.34659375" y1="19.594815625" x2="-90.76164375" y2="-10.217225" width="0" layer="19" extent="1-1"/>
+<wire x1="-79.7932125" y1="44.65623125" x2="-89.34659375" y2="19.594815625" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.429878125" y1="64.11889375" x2="-79.7932125" y2="44.65623125" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.755834375" y1="84.546478125" x2="-65.429878125" y2="64.11889375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="PAD4" pad="1"/>
@@ -1453,54 +1453,54 @@ design rules under a new name.</description>
 <contactref element="LED14" pad="C"/>
 <contactref element="LED15" pad="C"/>
 <contactref element="LED16" pad="C"/>
-<wire x1="-34.396725" y1="-87.65035" x2="-61.20075" y2="-67.650975" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.317825" y1="-90.861575" x2="-34.396725" y2="-87.65035" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.0674" y1="-37.65035" x2="-61.20075" y2="-67.650975" width="0" layer="19" extent="1-1"/>
-<wire x1="-87.738075" y1="-7.650975" x2="-81.0674" y2="-37.65035" width="0" layer="19" extent="1-1"/>
-<wire x1="-87.738075" y1="22.34965" x2="-87.738075" y2="-7.650975" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.738075" y1="47.350275" x2="-87.738075" y2="22.34965" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.0674" y1="67.350275" x2="-77.738075" y2="47.350275" width="0" layer="19" extent="1-1"/>
-<wire x1="-29.396725" y1="87.350275" x2="-61.0674" y2="67.350275" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.99169375" y1="-86.34316875" x2="-61.419665625" y2="-67.650975" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.22008125" y1="-92.989775" x2="-30.99169375" y2="-86.34316875" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.83071875" y1="-37.74155" x2="-61.419665625" y2="-67.650975" width="0" layer="19" extent="1-1"/>
+<wire x1="-90.627703125" y1="-7.7385375" x2="-82.83071875" y2="-37.74155" width="0" layer="19" extent="1-1"/>
+<wire x1="-88.175884375" y1="22.38613125" x2="-90.627703125" y2="-7.7385375" width="0" layer="19" extent="1-1"/>
+<wire x1="-77.890084375" y1="47.350275" x2="-88.175884375" y2="22.38613125" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.90655" y1="67.31379375" x2="-77.890084375" y2="47.350275" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.25125" y1="86.5599125" x2="-61.90655" y2="67.31379375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="LED9" pad="A"/>
 <contactref element="R9" pad="1"/>
-<wire x1="-64.30075" y1="-67.650975" x2="-69.246675" y2="-66.025625" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.578278125" y1="-70.440571875" x2="-64.519665625" y2="-67.650975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="LED10" pad="A"/>
 <contactref element="R10" pad="1"/>
-<wire x1="-80.838075" y1="47.350275" x2="-85.43475" y2="48.974375" width="0" layer="19" extent="1-1"/>
+<wire x1="-80.990084375" y1="47.350275" x2="-81.8982125" y2="44.65623125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="LED11" pad="A"/>
 <contactref element="R11" pad="1"/>
-<wire x1="-90.838075" y1="-7.650975" x2="-96.622825" y2="-6.025625" width="0" layer="19" extent="1-1"/>
+<wire x1="-93.727703125" y1="-7.7385375" x2="-92.86664375" y2="-10.217225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="LED12" pad="A"/>
 <contactref element="R12" pad="1"/>
-<wire x1="-69.246675" y1="69.987825" x2="-64.1674" y2="67.350275" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.534878125" y1="64.11889375" x2="-65.00655" y2="67.31379375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="LED13" pad="A"/>
 <contactref element="R13" pad="1"/>
-<wire x1="-35.43475" y1="89.987825" x2="-32.496725" y2="87.350275" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.650834375" y1="84.546478125" x2="-34.35125" y2="86.5599125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="LED14" pad="A"/>
 <contactref element="R14" pad="1"/>
-<wire x1="-90.838075" y1="22.34965" x2="-96.622825" y2="19.987825" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.275884375" y1="22.38613125" x2="-91.45159375" y2="19.594815625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="LED15" pad="A"/>
 <contactref element="R15" pad="1"/>
-<wire x1="-84.1674" y1="-37.65035" x2="-89.246675" y2="-38.998725" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.93071875" y1="-37.74155" x2="-84.3187125" y2="-40.43529375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="LED16" pad="A"/>
 <contactref element="R16" pad="1"/>
-<wire x1="-37.496725" y1="-87.65035" x2="-40.43475" y2="-88.998725" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.185978125" y1="-88.71703125" x2="-34.09169375" y2="-86.34316875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="PAD1" pad="1"/>
@@ -1512,14 +1512,14 @@ design rules under a new name.</description>
 <contactref element="R6" pad="2"/>
 <contactref element="R7" pad="2"/>
 <contactref element="R8" pad="2"/>
-<wire x1="16.0525" y1="75" x2="41.0525" y2="90" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.9475" y1="55" x2="16.0525" y2="75" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9475" y1="30" x2="-3.9475" y2="55" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9475" y1="0" x2="-13.9475" y2="30" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.9475" y1="-30" x2="-13.9475" y2="0" width="0" layer="19" extent="1-1"/>
-<wire x1="6.0525" y1="-55" x2="-8.9475" y2="-30" width="0" layer="19" extent="1-1"/>
-<wire x1="36.0525" y1="-80" x2="6.0525" y2="-55" width="0" layer="19" extent="1-1"/>
-<wire x1="80" y1="-85" x2="36.0525" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="16.99835625" y1="72.036009375" x2="40.291259375" y2="89.037684375" width="0" layer="19" extent="1-1"/>
+<wire x1="1.475415625" y1="52.036009375" x2="16.99835625" y2="72.036009375" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.776809375" y1="26.97294375" x2="1.475415625" y2="52.036009375" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.970225" y1="-2.75821875" x2="-8.776809375" y2="26.97294375" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.53593125" y1="-32.158365625" x2="-10.970225" y2="-2.75821875" width="0" layer="19" extent="1-1"/>
+<wire x1="12.989715625" y1="-57.89045625" x2="-3.53593125" y2="-32.158365625" width="0" layer="19" extent="1-1"/>
+<wire x1="47.088978125" y1="-81.5766125" x2="12.989715625" y2="-57.89045625" width="0" layer="19" extent="1-1"/>
+<wire x1="78.79124375" y1="-87.89045625" x2="47.088978125" y2="-81.5766125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="PAD2" pad="1"/>
@@ -1531,54 +1531,62 @@ design rules under a new name.</description>
 <contactref element="LED6" pad="C"/>
 <contactref element="LED7" pad="C"/>
 <contactref element="LED8" pad="C"/>
-<wire x1="21.55" y1="75" x2="46.55" y2="90" width="0" layer="19" extent="1-1"/>
-<wire x1="1.55" y1="55" x2="21.55" y2="75" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.45" y1="30" x2="1.55" y2="55" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.45" y1="0" x2="-8.45" y2="30" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.45" y1="-30" x2="-8.45" y2="0" width="0" layer="19" extent="1-1"/>
-<wire x1="11.55" y1="-55" x2="-3.45" y2="-30" width="0" layer="19" extent="1-1"/>
-<wire x1="41.55" y1="-80" x2="11.55" y2="-55" width="0" layer="19" extent="1-1"/>
-<wire x1="75" y1="-85" x2="41.55" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="21.61305625" y1="75.063065625" x2="48.378659375" y2="91.13514375" width="0" layer="19" extent="1-1"/>
+<wire x1="4.13534375" y1="55.37838125" x2="21.61305625" y2="75.063065625" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.378028125" y1="29.936934375" x2="4.13534375" y2="55.37838125" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.770525" y1="-0.21890625" x2="-7.378028125" y2="29.936934375" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.3620625" y1="-29.45280625" x2="-10.770525" y2="-0.21890625" width="0" layer="19" extent="1-1"/>
+<wire x1="11.182115625" y1="-54.94744375" x2="-4.3620625" y2="-29.45280625" width="0" layer="19" extent="1-1"/>
+<wire x1="43.0740875" y1="-78.948921875" x2="11.182115625" y2="-54.94744375" width="0" layer="19" extent="1-1"/>
+<wire x1="76.261309375" y1="-87.890459375" x2="43.0740875" y2="-78.948921875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="LED1" pad="A"/>
 <contactref element="R1" pad="1"/>
-<wire x1="38.45" y1="-80" x2="33.9475" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="44.983978125" y1="-81.5766125" x2="39.9740875" y2="-78.948921875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="LED2" pad="A"/>
 <contactref element="R2" pad="1"/>
-<wire x1="8.45" y1="-55" x2="3.9475" y2="-55" width="0" layer="19" extent="1-1"/>
+<wire x1="10.884715625" y1="-57.89045625" x2="8.082115625" y2="-54.94744375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="LED3" pad="A"/>
 <contactref element="R3" pad="1"/>
-<wire x1="-6.55" y1="-30" x2="-11.0525" y2="-30" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.4620625" y1="-29.45280625" x2="-5.64093125" y2="-32.158365625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="LED4" pad="A"/>
 <contactref element="R4" pad="1"/>
-<wire x1="-11.55" y1="0" x2="-16.0525" y2="0" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.870525" y1="-0.21890625" x2="-13.075225" y2="-2.75821875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="LED5" pad="A"/>
 <contactref element="R5" pad="1"/>
-<wire x1="-16.0525" y1="30" x2="-11.55" y2="30" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.881809375" y1="26.97294375" x2="-10.478028125" y2="29.936934375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="LED6" pad="A"/>
 <contactref element="R6" pad="1"/>
-<wire x1="-6.0525" y1="55" x2="-1.55" y2="55" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.629584375" y1="52.036009375" x2="1.03534375" y2="55.37838125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="LED7" pad="A"/>
 <contactref element="R7" pad="1"/>
-<wire x1="13.9475" y1="75" x2="18.45" y2="75" width="0" layer="19" extent="1-1"/>
+<wire x1="14.89335625" y1="72.036009375" x2="18.51305625" y2="75.063065625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="LED8" pad="A"/>
 <contactref element="R8" pad="1"/>
-<wire x1="38.9475" y1="90" x2="43.45" y2="90" width="0" layer="19" extent="1-1"/>
+<wire x1="42.396259375" y1="89.037684375" x2="45.278659375" y2="91.13514375" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND">
+<polygon width="0.4064" layer="1" isolate="0.254">
+<vertex x="95.885" y="-103.505"/>
+<vertex x="-102.235" y="-103.505"/>
+<vertex x="-102.235" y="96.52"/>
+<vertex x="95.885" y="96.52"/>
+</polygon>
 </signal>
 </signals>
 </board>
